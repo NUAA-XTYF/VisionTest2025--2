@@ -1,0 +1,42 @@
+global:
+  map_width: 28.0
+  map_height: 15.0
+  base_damage: 100.0
+  damage_distance_factor: 0.001
+  armor_plate_width: 0.14
+  robot_length: 0.6
+  robot_width: 0.45
+  damage_boost: 2.0
+  boost_duration: 5.0
+
+ally_sentry:
+  position: {x: 0.0, y: 0.0}
+  direction: 0.0
+  color: "blue"
+  movable: false
+  gimbal_direction: 0.0
+
+enemy_robots:
+  - position: {x: 5.0, y: 5.0}
+    direction: 0.0
+    color: "red"
+    movable: false
+    health: 600.0
+    max_health: 600.0
+    armors:
+      - side: "front"
+        color: "red"
+        number: 1
+      - side: "left"
+        color: "red"
+        number: 2
+      - side: "back"
+        color: "red"
+        number: 3
+      - side: "right"
+        color: "red"
+        number: 4
+
+energy_mechanisms: []
+
+obstacles: []
