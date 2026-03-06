@@ -1,0 +1,42 @@
+global:
+  armor_plate_width: 0.5
+  base_damage: 50.0
+
+ally_sentry:
+  position:
+    x: 0.0
+    y: 0.0
+  direction:
+    x: 1.0
+    y: 0.0
+
+enemy_robots:
+  - position:
+      x: 10.0
+      y: 0.0
+    direction:
+      x: 1.0
+      y: 0.0
+    health: 150.0
+    max_health: 150.0
+    armors:
+      - side: front
+        number: 1
+      - side: left
+        number: 2
+      - side: right
+        number: 3
+
+  - position:
+      x: 15.0
+      y: 5.0
+    direction:
+      x: 0.0
+      y: 1.0
+    health: 120.0
+    max_health: 120.0
+    armors:
+      - side: back
+        number: 1
+      - side: top
+        number: 2
